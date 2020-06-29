@@ -37,6 +37,7 @@
   padding: 0px 25px;
   color: white;
   
+  
 }
 
 .me {
@@ -48,6 +49,7 @@
 
 .info-me {
   width: 350px;
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {
