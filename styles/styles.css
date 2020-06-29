@@ -1,0 +1,80 @@
+/* estilos comunes */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../assets/images/daniel-gregoire-LhXrNC2dn6g-unsplash.jpg);
+}
+
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: white !important;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.links-row {
+  margin-left: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 280px;
+  background-color: peru;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.firma {
+  width: 100px;
+  height: 90px;
+  opacity: 0.8;
+}
+
+.social-icons {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.directorio {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.directorio-links {
+  color: #2d3436;
+  opacity: 0.8;
+}
+
+.subtitle {
+  margin-top: 5%;
+  margin-left: 10%;
+}

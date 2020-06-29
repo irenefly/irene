@@ -1,0 +1,64 @@
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  padding: 0px 25px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+}
+
+.subtitle {
+  color: peachpuff;
+  font-size: 15px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  padding: 0px 25px;
+  color: white;
+  
+}
+
+.me {
+  width: 350px;
+  object-fit: contain;
+  margin-right: 1px;
+  margin-bottom: 10px
+}
+
+.info-me {
+  width: 350px;
+}
+
+@media (max-width: 600px) {
+  .subtitle {
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: unset;
+  }
+
+  .info-me {
+    margin-top: 70px;
+  }
+}

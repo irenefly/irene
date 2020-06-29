@@ -1,0 +1,107 @@
+.birds-container {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  overflow: hidden;
+}
+
+.bird {
+  width: 400px;
+  object-fit: contain;
+  margin-bottom: 50px;
+  transition: 1s all cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bird-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.bird:hover {
+  width: 500px;
+}
+
+.bird-info {
+  width: 450px;
+  transform: translateX(-100vw);
+  transition: 1s all;
+  color: white;
+}
+
+.bird-info-right {
+  width: 450px;
+  transform: translateX(100vw);
+  transition: 1s all;
+  color: white;
+}
+
+.bird-container:hover .bird-info {
+  transform: translateX(0);
+}
+
+.bird-container:hover .bird-info-right {
+  transform: translateX(10vw);
+}
+
+.pajaro-azul:hover {
+  width: 500px;
+}
+
+.pajaro-bonito-uno:hover {
+  width: 500px;
+}
+
+.pajaro-bonito-dos:hover {
+  width: 500px;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+@media (max-width: 600px) {
+  .birds-container {
+  }
+
+  .right .left {
+    align-self: unset;
+  }
+
+  .bird-container {
+    flex-direction: column;
+  }
+
+  .bird {
+    align-self: center;
+    width: 200px;
+    order: 1;
+  }
+
+  .bird:hover {
+    width: 200px;
+  }
+
+  .bird-info {
+    color: peachpuff;
+    font-size: 10px;
+    width: 250px;
+  }
+
+  .bird-info-right {
+    color: white;
+    font-size: 10px;
+    width: 250px;
+  }
+
+  .bird-container:hover .bird-info {
+    transform: translateX(5vw);
+  }
+
+  .bird-container:hover .bird-info-right {
+    transform: translateX(-5vw);
+  }
+}
